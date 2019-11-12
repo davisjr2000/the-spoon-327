@@ -1,0 +1,10 @@
+<h1>The Spoon</h1>
+<% @restaurants.each do |restaurant| %>
+  <div>
+    <h2><%= restaurant.name %></h2>
+    <%= "*" * restaurant.stars %>
+    <%= link_to "More Details", restaurant_path(restaurant) %>
+  </div>
+<% end %>
+
+<%= link_to "Create Restaurant", new_restaurant_path %>

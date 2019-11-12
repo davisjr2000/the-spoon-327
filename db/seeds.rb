@@ -3,5 +3,7 @@
 #
 # Examples:
 #
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+
+Restaurant.create(name: "Vintao", stars: 5 , address: "Rua Mourato")
+Restaurant.create(name: "Villa Grano", stars: 3, address: "Rua Rua")
+Restaurant.create(name: "Quinzao", stars: 2, address: "Rua Wizard")
